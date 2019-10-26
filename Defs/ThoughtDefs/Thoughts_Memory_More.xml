@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>SoldMyChildhoodFriend</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>90</durationDays>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>childhood friend sold</label>
+        <labelSocial>sold my childhood friend</labelSocial>
+        <description>My childhood friend was sold to slavers!</description>
+        <baseOpinionOffset>-15</baseOpinionOffset>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KilledMyChildhoodFriend</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>60</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>killed my childhood friend</label>
+        <baseOpinionOffset>-35</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="DeathMemoryFamily">
+    <defName>MyChildhoodFriendDied</defName>
+    <stages>
+      <li>
+        <label>my childhood friend {0} died</label>
+        <description>My childhood friend died.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

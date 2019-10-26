@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnRelationDef>
+    <defName>ChildhoodFriend</defName>
+    <label>Childhood Friend</label>
+    <labelFemale>Childhood Friend</labelFemale>
+    <diedThought>MyChildhoodFriendDied</diedThought>
+    <killedThought>KilledMyChildhoodFriend</killedThought>
+    <soldThought>SoldMyChildhoodFriend</soldThought>
+    <importance>135</importance>
+    <opinionOffset>20</opinionOffset>
+    <generationChanceFactor>0.1</generationChanceFactor>
+    <implied>false</implied>
+    <reflexive>true</reflexive>
+  </PawnRelationDef>
+
+  <PawnRelationDef>
+    <defName>ChildhoodRival</defName>
+    <label>Childhood Rival</label>
+    <labelFemale>Childhood Rival</labelFemale>
+    <opinionOffset>-5</opinionOffset>
+    <generationChanceFactor>0.1</generationChanceFactor>
+    <implied>false</implied>
+    <reflexive>true</reflexive>
+  </PawnRelationDef>
+
+  <PawnRelationDef>
+    <defName>FormerCoworker</defName>
+    <label>Former Coworker</label>
+    <labelFemale>Former Coworker</labelFemale>
+    <opinionOffset>5</opinionOffset>
+    <generationChanceFactor>0.1</generationChanceFactor>
+    <implied>false</implied>
+    <reflexive>true</reflexive>
+  </PawnRelationDef>
+
+  <PawnRelationDef>
+    <defName>FormerClassmate</defName>
+    <label>Former Classmate</label>
+    <labelFemale>Former Classmate</labelFemale>
+    <opinionOffset>5</opinionOffset>
+    <generationChanceFactor>0.05</generationChanceFactor>
+    <implied>false</implied>
+    <reflexive>true</reflexive>
+  </PawnRelationDef>
+
+  <PawnRelationDef>
+    <defName>TravelBuddy</defName>
+    <label>Travel Buddy</label>
+    <labelFemale>Travel Buddy</labelFemale>
+    <opinionOffset>7</opinionOffset>
+    <generationChanceFactor>0.1</generationChanceFactor>
+    <implied>false</implied>
+    <reflexive>true</reflexive>
+  </PawnRelationDef>
+
+</Defs>

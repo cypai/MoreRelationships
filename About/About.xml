@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>More Relationships</name>
+    <author>pipai</author>
+    <supportedVersions>
+        <li>1.0</li>
+    </supportedVersions>
+	<description>
+        More Random Relationships!
+
+        Bored of just having familial relationships? These add a few alternatives.
+
+        Works with Edb Prepare Carefully.
+
+        This is essentially just an XML mod. If you add your own, you will need to make a copy and make it an internal mod to prevent updates from overwriting your changes.
+
+        Currently doesn't come with any relations that require workers because I don't feel like dealing with C# on Linux.
+	</description>
+
+</ModMetaData>
