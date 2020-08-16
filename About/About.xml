@@ -18,7 +18,14 @@
 
         This is essentially just an XML mod. If you add your own, you will need to make a copy and make it an internal mod to prevent updates from overwriting your changes.
 
-        Currently doesn't come with any relations that require workers because I don't feel like dealing with C# on Linux.
+        Includes the following new relationships:
+        - Childhood Friend
+        - Childhood Rival
+        - Former Coworker
+        - Former Classmate
+        - Travel Buddy
+
+        Currently doesn't come with any relations that require C# coding because I'm lazy.
 	</description>
 
 </ModMetaData>
