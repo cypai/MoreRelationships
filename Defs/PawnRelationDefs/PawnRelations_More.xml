@@ -7,7 +7,9 @@
     <labelFemale>Childhood Friend</labelFemale>
     <diedThought>MyChildhoodFriendDied</diedThought>
     <killedThought>KilledMyChildhoodFriend</killedThought>
-    <soldThought>SoldMyChildhoodFriend</soldThought>
+    <soldThoughts>
+        <li>SoldMyChildhoodFriend</li>
+    </soldThoughts>
     <importance>135</importance>
     <opinionOffset>20</opinionOffset>
     <generationChanceFactor>0.1</generationChanceFactor>

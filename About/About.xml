@@ -3,6 +3,7 @@
 
 	<name>More Relationships</name>
     <author>pipai</author>
+    <packageId>pipai.morerelationships</packageId>
     <supportedVersions>
         <li>1.0</li>
         <li>1.1</li>
