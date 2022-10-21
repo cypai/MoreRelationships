@@ -9,13 +9,14 @@
         <li>1.1</li>
         <li>1.2</li>
         <li>1.3</li>
+        <li>1.4</li>
     </supportedVersions>
 	<description>
         More Random Relationships!
 
         Bored of just having familial relationships? These add a few alternatives.
 
-        Works with Edb Prepare Carefully.
+        Works with any character editor, as it only adds pawn relations the vanilla way.
 
         This is essentially just an XML mod. If you add your own, you will need to make a copy and make it an internal mod to prevent updates from overwriting your changes.
 
@@ -25,8 +26,6 @@
         - Former Coworker
         - Former Classmate
         - Travel Buddy
-
-        Currently doesn't come with any relations that require C# coding because I'm lazy.
 	</description>
 
 </ModMetaData>
